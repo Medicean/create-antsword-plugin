@@ -1,0 +1,18 @@
+{
+    "name": "创建插件",
+    "name_en": "Create Plugin",
+    "main": "index.js",
+    "icon": "eye",
+    "version": "0.1",
+    "description": "创建插件模版",
+    "description_en": "Create AntSword Plugin",
+    "author": {
+      "name": "Medici.Yan",
+      "email": "Medici.Yan@gmail.com"
+    },
+    "category": "",
+    "category_en": "",
+    "multiple": false,
+    "scripts": ["php", "asp", "aspx", "custom"]
+  }
+  
