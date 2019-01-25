@@ -18,9 +18,12 @@ class UI {
     }
     this.categorymap = {
         "default": "默认",
-        "information": "信息获取",
+        "Information": "信息获取",
         "Intranet": "内网工具",
         "Datamanager": "数据管理",
+        "Support": "辅助工具",
+        "NetTool": "网络工具",
+        "Cracker": "破解类",
     }
     // 创建一个window窗口
     this.win = new WIN({
@@ -247,8 +250,8 @@ class UI {
                   "name": "user",
                   "email": "user@u0u.us",
                 },
-                "category": formvals['category'],
-                "category_en": formvals['category_en'],
+                "category": self.categorymap[formvals['category']],
+                "category_en": formvals['category'],
                 "multiple": formvals['multiple'],
                 "scripts": _scripts,
               },
