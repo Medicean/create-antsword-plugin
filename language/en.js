@@ -6,6 +6,8 @@ module.exports = {
     toolbar: {
         create: "Create",
         choose: "Confirm",
+        about: "About",
+        doc: "Document",
     },
     form: {
         title: 'Plugin Config',

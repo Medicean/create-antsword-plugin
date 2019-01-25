@@ -57,7 +57,9 @@ class UI {
   createToolbar(cell) {
     let toolbar = cell.attachToolbar();
     toolbar.loadStruct([
-      { id: 'create', type: 'button', text: LANG['toolbar']['create'], icon: 'plus-circle' }
+      { id: 'create', type: 'button', text: LANG['toolbar']['create'], icon: 'plus-circle' },
+      { id: 'doc', type: 'button', text: LANG['toolbar']['doc'], icon: 'book' },
+      { id: 'about', type: 'button', text: LANG['toolbar']['about'], icon: 'star' },
     ]);
     this.toolbar = toolbar;
   }
@@ -282,6 +284,11 @@ class UI {
             toastr.warning(LANG['warning'], LANG_T['error']);
           }
           break;
+        case 'about':
+          antSword['shell'].openExternal("https://github.com/Medicean/create-antsword-plugin");
+          break;
+        case 'doc':
+          antSword['shell'].openExternal("https://doc.u0u.us/zh-hans/plugin_dev/index.html");
         default:
       }
     })

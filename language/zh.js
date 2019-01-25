@@ -6,6 +6,8 @@ module.exports = {
     toolbar: {
         create: "创建",
         choose: "选择",
+        about: "关于",
+        doc: "开发文档",
     },
     form: {
         title: '插件配置',

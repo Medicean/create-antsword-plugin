@@ -2,7 +2,7 @@
     "name": "创建插件",
     "name_en": "Create Plugin",
     "main": "index.js",
-    "icon": "eye",
+    "icon": "puzzle-piece",
     "version": "0.1",
     "description": "创建插件模版",
     "description_en": "Create AntSword Plugin",
