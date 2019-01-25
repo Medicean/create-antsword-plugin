@@ -4,6 +4,11 @@ AntSword 创建插件脚手架, 通过简单配置即可创建自己的插件项
 
 ## 演示截图
 
+![create_antsword_plugin_1.png](https://i.loli.net/2019/01/25/5c4a6c4302965.png)
+
+![create_antsword_plugin_2.png](https://i.loli.net/2019/01/25/5c4a6c447eea2.png)
+
+![create_antsword_plugin_3.png](https://i.loli.net/2019/01/25/5c4a6c4742dbb.png)
 
 ## 安装
 
